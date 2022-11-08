@@ -1,0 +1,244 @@
+/* Links / starter information */
+
+/* Font help */
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+
+/* HTML Elements */
+
+h1,h2,h3,h4,h5,h6,p {
+    font-family: "Montserrat";
+}
+
+h1 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0 0 5%;
+}
+
+h3 {
+    font-family: "Roboto-Mono";
+    font-weight: 900;
+}
+
+h4 {
+    font-family: "Roboto-Mono";
+    font-size: 1.55rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+h5 {
+    font-size: 0.9rem;
+    color: #425F57;
+}
+
+hr {
+    margin: 0% auto;
+    border-top: 10px dotted;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 10%;
+    color: #050505;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+/* Colors */
+
+.white {
+    background: #fff;
+}
+
+.forest-green {
+    background-color: #425F57;
+}
+
+.dark-green {
+    background-color: #749F82;
+}
+
+.light-green {
+    background-color: #A8E890;
+}
+
+.yellow-green {
+    background-color: #CFFF8D;
+}
+
+
+/* Navigation Bar */
+
+#navigation-bar {
+    padding: 12px 5%;
+    font-family: "Merriweather";
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #CFFF8D;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #CFFF8D;
+    margin: 0px 20px;
+}
+
+
+/* Entryway */
+
+#entryway {
+    font-family: "Merriweather";
+    padding: 5% 0;
+}
+
+.motto {
+    text-align: center;
+    padding: 7% 0% 0% 25%;
+    font-family: "Roboto-Mono";
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.motto-under {
+    padding: 5% 0% 0% 25%;
+}
+
+.climbing-holds {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    max-height: 250px;
+    object-fit: cover;
+    margin: 5% auto;
+}
+
+.carousel-item {
+    padding: 0 0 5%;
+}
+
+.carousel-container {
+    padding: 0 25%;
+}
+
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-control-next {
+    filter: invert(100%);
+}
+
+/* Mission / Personnel */
+
+.container-hr {
+    padding: 10% 0 7% 0;
+}
+
+.titles {
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 5% 0 5% 0;
+}
+
+.mission {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0% 28% 0% 28%;
+    hyphens: auto;
+}
+
+.founders {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    margin: 5% auto;
+}
+
+.founders-about {
+    padding: 7% 10% 0% 10%;
+    max-width: 100%;
+    text-align: left;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.container-founders {
+    text-align: center;
+}
+
+
+/* Product */
+
+.btn-row-one {
+    margin: 33% 0% 2% 0%;
+}
+
+.btn-row-one:hover {
+    background-color: #749F82 !important;
+}
+
+.btn-row-two {
+    margin: 5% 0% 2% 0%;
+}
+
+.btn-row-two:hover {
+    background-color: #749F82 !important;
+}
+
+.custom-button {
+    margin: 5% 0% 1% 0%;
+    padding: 1% 2% 1% 2%;
+}
+
+.custom-button:hover {
+    background-color: #749F82 !important;
+}
+
+.btn-dark {
+    background-color: #425F57 !important;
+}
+
+.btn-para {
+    text-align: center;
+    padding: 0% 12% 10% 12%;
+    hyphens: auto;
+}
+
+/* Footer */
+
+.footer-icon-div {
+    padding: 3% 0% 1% 0%;
+}
+
+.footer-icon {
+    margin: 10px 10px;
+    color: #425F57 !important;
+}
+
+.footer-copyright-div {
+    padding: 1% 0% 3% 0%;
+}
